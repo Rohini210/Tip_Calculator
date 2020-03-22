@@ -1,0 +1,48 @@
+<!doctype>
+<html>
+	<head>
+		<title>We care for your taste!</title>
+		<link rel="stylesheet" type="text/css" href="food.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script type="text/javascript" src="./food.js"></script>
+	</head>
+	<body >
+		<h1 class="h1fst">Food Corner</h1> 
+	<div>	
+		<div>
+			<p>Please Enter Your Details</p>
+			<input type="text" placeholder="Name" text-size="30" ><br><br>
+			<input type="number" placeholder="Contact No."  text-size="30"><br><br>
+			<input type="text" placeholder="E-mail" text-size="30"><br><br>
+		</div>
+
+		<div>
+			<form>
+
+				<p>Please Enter Your Bill Amount</p>	
+				
+				<input type="text" placeholder="Rs. /-" id="amount"> 
+				<p>We'd love to hear from you!</p><br>
+
+					<select id="total">
+
+						<option disabled selected value="0" color="white">Feedback</option>
+						
+
+						<option value="5" color="white" >Bad(5%)</option>
+						<option value="18" color="white">Average(18%)</option>
+						<option value="18" color="white">Good(18%)</option>
+
+					</select>
+
+					<br><br>
+				<button type="button" onclick="tipCalculator()" value="Click Me!">Submit</button>
+
+			</form>		
+
+		</div>
+
+
+	</body>
+	
+</html>
